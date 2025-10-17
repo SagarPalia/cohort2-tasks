@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background: url("pexels-lood-goosen-508841-1235706.jpg");
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.info {
+	text-align: center;
+}
+
+h1 {
+	color: white;
+	font-size: 50px;
+	margin-bottom: 30px;
+}
+
+button {
+	font-size: 17px;
+	background: white;
+	border: none;
+	border-radius: 8px;
+	padding: 8px 16px;
+}
+
+button:hover {
+	background: rgb(216, 164, 164);
+	transform: scale(1.1);
+}
