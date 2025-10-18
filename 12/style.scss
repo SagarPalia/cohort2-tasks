@@ -1,0 +1,214 @@
+$bg: #121212;
+$section-bg: #1e1e1e;
+
+// roboto-mono - text meta , chillax - h2 , satoshi - p
+
+@font-face {
+	font-family: roboto-mono;
+	src: url(./fonts/roboto-mono.woff2);
+}
+
+@font-face {
+	font-family: chillax;
+	src: url(./fonts/Chillax-Regular.woff);
+}
+
+@font-face {
+	font-family: satoshi;
+	src: url(./fonts/Satoshi-Light.woff);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: $bg;
+	font-family: satoshi;
+}
+
+.font-roboto {
+	font-family: roboto-mono;
+}
+
+.font-chillax {
+	font-family: chillax;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+main {
+	width: 100%;
+	max-width: 1920px;
+	margin: 0 auto;
+	padding: 1rem;
+}
+
+nav {
+	text-align: center;
+	padding: 1rem;
+	margin-bottom: 1rem;
+
+	img {
+		height: 30px;
+	}
+}
+
+.two-column-section {
+	margin-bottom: 1rem;
+	display: flex;
+	gap: 1rem;
+	flex-direction: column;
+
+	.image,
+	.text {
+		width: 100%;
+		border-radius: 1.5rem;
+	}
+
+	.image {
+		overflow: hidden;
+
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+
+	.text {
+		background-color: $section-bg;
+		color: white;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		padding: 2rem;
+
+		.title {
+			@extend .font-roboto;
+			margin-bottom: 4rem;
+		}
+
+		h1,
+		h2 {
+			@extend .font-chillax;
+			font-weight: 400;
+			text-transform: uppercase;
+			line-height: 1.25;
+			margin-bottom: 0.5rem;
+			text-wrap: pretty;
+		}
+
+		h1 {
+			font-size: 2.5rem;
+		}
+
+		h2 {
+			font-size: 2.25rem;
+		}
+
+		p {
+			font-size: 1.25rem;
+			opacity: 0.7;
+			line-height: 1.75;
+			letter-spacing: 1px;
+		}
+
+		a.arrow-link {
+			@extend .font-roboto;
+			display: inline-block;
+			margin-top: 3rem;
+			text-transform: uppercase;
+
+			i {
+				padding: 0.75rem;
+				font-size: 1.25rem;
+				border-radius: 50%;
+				margin-right: 0.5rem;
+				border: 1px solid #4b4b4b;
+				background-color: #292929;
+				transition: all 250ms ease;
+			}
+
+			&:hover {
+				i {
+					color: black;
+					background-color: #fff;
+				}
+			}
+		}
+	}
+}
+
+#counters {
+	padding: 3rem 0;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	text-align: center;
+	gap: 2rem;
+
+	h3 {
+		@extend .font-roboto;
+		font-weight: 400;
+		opacity: 0.7;
+		font-size: 1rem;
+	}
+
+	p {
+		font-size: 3.5rem;
+		font-weight: 600;
+		letter-spacing: 3px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.two-column-section {
+		flex-direction: row;
+
+		&.reverse {
+			.text {
+				order: 1;
+			}
+			.image {
+				order: 2;
+			}
+		}
+
+		.image,
+		.text {
+			width: 50%;
+		}
+
+		.text {
+			padding: 4rem;
+
+			h1 {
+				font-size: 4rem;
+			}
+
+			h2 {
+				font-size: 3rem;
+			}
+
+			p {
+				max-width: 550px;
+
+				&.cols {
+					column-count: 2;
+					max-width: 100%;
+				}
+			}
+		}
+	}
+
+	#counters {
+		flex-direction: row;
+		justify-content: space-around;
+	}
+}

@@ -30,9 +30,6 @@ main {
   overflow: hidden;
   border: 1px solid #361f52;
 }
-.image img {
-  flex-grow: 1;
-}
 
 .image-01 {
   grid-column: 1/3;
