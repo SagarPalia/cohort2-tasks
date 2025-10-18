@@ -2,6 +2,7 @@
 
 | #   | Task Details          | ##     | Based on Topic     | Link                                            |
 | --- | --------------------- | ------ | ------------------ | ----------------------------------------------- |
+| 09  | Hero Section          | Day 19 | CSS Grid & SCSS    | [View](https://cohort.sagarpalia.com/tasks/09/) |
 | 08  | Bentro Grid           | Day 18 | CSS Grid           | [View](https://cohort.sagarpalia.com/tasks/08/) |
 | 07  | Simple Carousel       | Day 17 | Flexbox & Overflow | [View](https://cohort.sagarpalia.com/tasks/07/) |
 | 06  | Cards UI              | Day 16 | CSS Transitions    | [View](https://cohort.sagarpalia.com/tasks/06/) |
