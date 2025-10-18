@@ -1,0 +1,51 @@
+/*
+	Task challenge was to not use height or width on img tag or parent div
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  background-color: #120620;
+  padding: 1.5rem;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 1.5rem;
+}
+
+.image {
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  border: 1px solid #361f52;
+}
+.image img {
+  flex-grow: 1;
+}
+
+.image-01 {
+  grid-column: 1/3;
+  grid-row: 1/-1;
+}
+
+.image-02 {
+  grid-column: 3/6;
+  grid-row: 1/4;
+}
+
+.image-03,
+.image-04,
+.image-05 {
+  grid-row: 4/6;
+}

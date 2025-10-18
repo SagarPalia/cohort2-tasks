@@ -2,6 +2,7 @@
 
 | #   | Task Details          | ##     | Based on Topic     | Link                                            |
 | --- | --------------------- | ------ | ------------------ | ----------------------------------------------- |
+| 11  | Image Gallery         | Day 21 | SCSS               | [View](https://cohort.sagarpalia.com/tasks/11/) |
 | 10  | Image Gallery         | Day 20 | SCSS               | [View](https://cohort.sagarpalia.com/tasks/10/) |
 | 09  | Hero Section          | Day 19 | CSS Grid & SCSS    | [View](https://cohort.sagarpalia.com/tasks/09/) |
 | 08  | Bentro Grid           | Day 18 | CSS Grid           | [View](https://cohort.sagarpalia.com/tasks/08/) |

@@ -17,7 +17,7 @@ main {
   gap: 10px;
 }
 main section {
-  width: 20%;
+  flex-grow: 1;
   padding: 2rem;
   background-color: #aaa1a1;
   transition: 250ms all ease;
@@ -26,10 +26,11 @@ main section {
   overflow: hidden;
 }
 main section:hover {
-  width: 30%;
+  flex-grow: 1.5;
 }
 main section:hover div {
   opacity: 1;
+  transition: all 750ms ease;
 }
 main section.section-01 {
   background-image: url(images/tom-barrett-hgGplX3PFBg-unsplash.jpg);
