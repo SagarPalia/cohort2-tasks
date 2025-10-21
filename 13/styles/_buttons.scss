@@ -1,0 +1,31 @@
+a.button-link {
+	background: $primary-color;
+	color: white !important;
+	border-radius: 100px;
+	padding: 0.65rem 1.5rem;
+	@extend .google-sans;
+	font-weight: 600;
+	font-size: 0.9rem;
+}
+
+a.button-link-alt {
+	font-size: 0.9rem;
+	background: transparent;
+	color: $primary-color;
+	border-radius: 100px;
+	padding: 0.65rem 1.5rem;
+	border: 1px solid $primary-color;
+	@extend .google-sans;
+	font-weight: 600;
+
+	&:hover {
+		background: $primary-color;
+		color: white !important;
+	}
+}
+
+a.text-link {
+	font-size: 0.9rem;
+	@extend .google-sans;
+	font-weight: 600;
+}

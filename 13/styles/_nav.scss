@@ -1,0 +1,41 @@
+nav {
+	padding: 1.5rem 3rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: white;
+	box-shadow: 0 2px 4px rgba(black, 0.15);
+
+	position: sticky;
+	top: 0;
+	left: 0;
+	width: 100%;
+
+	img {
+		width: 130px;
+	}
+
+	.links {
+		font-size: 0.9rem;
+		display: none;
+		align-items: center;
+		gap: 2.5rem;
+
+		a {
+			font-weight: 600;
+			@extend .google-sans;
+			color: $gray;
+
+			&:hover,
+			&.current {
+				color: $primary-color;
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 1008px) {
+	nav .links {
+		display: flex;
+	}
+}
