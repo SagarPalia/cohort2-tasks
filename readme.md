@@ -2,6 +2,7 @@
 
 | #   | Task Details           | ##        | Based on Topic     | Link                                            |
 | --- | ---------------------- | --------- | ------------------ | ----------------------------------------------- |
+| 14  | Javascript Questions   | Day 39    | Javascript         | [View](https://cohort.sagarpalia.com/tasks/14/) |
 | 13  | Flutter Ecosystem Page | Day 24    | Responsive         | [View](https://cohort.sagarpalia.com/tasks/13/) |
 | 12  | Studio Website         | Day 23-24 | Responsive         | [View](https://cohort.sagarpalia.com/tasks/12/) |
 | 11  | Image Gallery          | Day 22    | SCSS               | [View](https://cohort.sagarpalia.com/tasks/11/) |
