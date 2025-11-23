@@ -2,6 +2,7 @@
 
 | #   | Task Details                 | ##        | Based on Topic     | Link                                            |
 | --- | ---------------------------- | --------- | ------------------ | ----------------------------------------------- |
+| 16  | Counter                      | Day 42    | DOM                | [View](https://cohort.sagarpalia.com/tasks/16/) |
 | 15  | Javascript Questions Level 2 | Day 41    | Javascript         | [View](https://cohort.sagarpalia.com/tasks/15/) |
 | 14  | Javascript Questions Level 1 | Day 39    | Javascript         | [View](https://cohort.sagarpalia.com/tasks/14/) |
 | 13  | Flutter Ecosystem Page       | Day 24    | Responsive         | [View](https://cohort.sagarpalia.com/tasks/13/) |
