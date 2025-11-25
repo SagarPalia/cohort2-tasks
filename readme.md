@@ -2,6 +2,7 @@
 
 | #   | Task Details                 | ##        | Based on Topic     | Link                                            |
 | --- | ---------------------------- | --------- | ------------------ | ----------------------------------------------- |
+| 18  | IPL Winner Predictor         | Day 43    | Randomness in DOM  | [View](https://cohort.sagarpalia.com/tasks/18/) |
 | 17  | Random Background Color      | Day 43    | Randomness in DOM  | [View](https://cohort.sagarpalia.com/tasks/17/) |
 | 16  | Counter                      | Day 42    | DOM                | [View](https://cohort.sagarpalia.com/tasks/16/) |
 | 15  | Javascript Questions Level 2 | Day 41    | Javascript         | [View](https://cohort.sagarpalia.com/tasks/15/) |
