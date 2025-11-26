@@ -12,7 +12,13 @@ downloadBtn.addEventListener("click", () => {
 		currentProgress++;
 		progress.style.width = currentProgress + "%";
 		progressPercentage.innerText = `${currentProgress}%`;
+		downloadBtn.disabled = true;
+		downloadBtn.style.cursor = "not-allowed";
+		downloadBtn.innerText = "Downloading";
 
-		if (currentProgress == 100) clearInterval(progressValue);
+		if (currentProgress == 100) {
+			downloadBtn.innerText = "Downloaded";
+			clearInterval(progressValue);
+		}
 	}, duration);
 });
