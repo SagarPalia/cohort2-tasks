@@ -2,6 +2,7 @@
 
 | #   | Task Details                 | ##        | Based on Topic     | Link                                            |
 | --- | ---------------------------- | --------- | ------------------ | ----------------------------------------------- |
+| 20  | Download Button              | Day 45    | TimeOut & Interval | [View](https://cohort.sagarpalia.com/tasks/20/) |
 | 19  | Random Quotes Wall           | Day 44    | DOM                | [View](https://cohort.sagarpalia.com/tasks/19/) |
 | 18  | IPL Winner Predictor         | Day 43    | Randomness in DOM  | [View](https://cohort.sagarpalia.com/tasks/18/) |
 | 17  | Random Background Color      | Day 43    | Randomness in DOM  | [View](https://cohort.sagarpalia.com/tasks/17/) |
