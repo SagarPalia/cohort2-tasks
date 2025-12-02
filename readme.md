@@ -2,6 +2,7 @@
 
 | #   | Task Details                 | ##        | Based on Topic     | Link                                            |
 | --- | ---------------------------- | --------- | ------------------ | ----------------------------------------------- |
+| 22  | Dynamic Profile Cards        | Day 47    | DOM & ForEach      | [View](https://cohort.sagarpalia.com/tasks/22/) |
 | 21  | Instagram "Like"             | Day 46    | Event Listeners    | [View](https://cohort.sagarpalia.com/tasks/21/) |
 | 20  | Download Button              | Day 45    | TimeOut & Interval | [View](https://cohort.sagarpalia.com/tasks/20/) |
 | 19  | Random Quotes Wall           | Day 44    | DOM                | [View](https://cohort.sagarpalia.com/tasks/19/) |
