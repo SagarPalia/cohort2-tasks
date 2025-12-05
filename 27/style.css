@@ -1,0 +1,54 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+		sans-serif;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: black;
+}
+
+@property --bgAngle {
+	syntax: "<angle>";
+	initial-value: 0deg;
+	inherits: false;
+}
+
+.card {
+	width: 300px;
+	padding: 2rem;
+	border-radius: 1rem;
+	background: linear-gradient(black, black) padding-box,
+		conic-gradient(from var(--bgAngle), black, orange, black) border-box;
+	border: 5px solid rgba(255, 255, 255, 0);
+	animation: 5s infinite gradientBG normal;
+	box-shadow: 0 0 30px orange;
+}
+
+@keyframes gradientBG {
+	from {
+		--bgAngle: 0deg;
+	}
+	to {
+		--bgAngle: 360deg;
+	}
+}
+
+.card img {
+	display: block;
+	width: 100%;
+	margin: 1rem auto;
+	filter: drop-shadow(0 5px 20px rgba(255, 165, 0, 0.75));
+}
