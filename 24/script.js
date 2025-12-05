@@ -1,7 +1,4 @@
-let reelsContainer = document.querySelector("#reels");
-let fetchedReels = "";
-
-let reels = [
+let reelsData = [
 	{
 		username: "sam4102",
 		likeCount: 1420,
@@ -35,8 +32,12 @@ let reels = [
 	},
 ];
 
-reels.forEach((reel) => {
-	fetchedReels += `
+let reelsContainer = document.querySelector("#reels");
+let fetchedReels = "";
+
+const render = () => {
+	reelsData.forEach((reel, index) => {
+		fetchedReels += `
 		<div class="reel">
 			<div class="video">
 				<video src="${reel.video}" autoplay loop muted></video>
@@ -48,13 +49,15 @@ reels.forEach((reel) => {
 						alt="${reel.username}"
 					/>
 					<h2>${reel.username}</h2>
-					<button>${reel.isFollowed ? "Unfollow" : "Follow"}</button>
+					<button id="${index}">${reel.isFollowed ? "Unfollow" : "Follow"}</button>
 				</div>
 				<p>...</p>
 			</div>
 			<div class="stats">
-				<div class="likes">
-					<h4><i class="${reel.isLiked ? "ri-heart-3-fill" : "ri-heart-3-line"}"></i></h4>
+				<div class="likes" id="${index}">
+					<h4><i class="likeBtn ${
+						reel.isLiked ? "ri-heart-3-fill" : "ri-heart-3-line"
+					}"></i></h4>
 					<h6>${reel.likeCount}</h6>
 				</div>
 				<div class="comment">
@@ -71,5 +74,30 @@ reels.forEach((reel) => {
 			</div>
 		</div>
 	`;
+	});
+	reelsContainer.innerHTML = fetchedReels;
+};
+
+render();
+
+reelsContainer.addEventListener("click", (e) => {
+	const currentReel = e.target.parentElement.parentElement;
+	// likes
+	if (currentReel.className == "likes") {
+		if (reelsData[currentReel.id].isLiked) {
+			reelsData[currentReel.id].likeCount--;
+			reelsData[currentReel.id].isLiked = false;
+			currentReel.querySelector(".likeBtn").className =
+				"likeBtn ri-heart-3-line";
+			currentReel.querySelector("h6").innerText =
+				reelsData[currentReel.id].likeCount;
+		} else {
+			reelsData[currentReel.id].likeCount++;
+			reelsData[currentReel.id].isLiked = true;
+			currentReel.querySelector(".likeBtn").className =
+				"likeBtn ri-heart-3-fill";
+			currentReel.querySelector("h6").innerText =
+				reelsData[currentReel.id].likeCount;
+		}
+	}
 });
-reelsContainer.innerHTML = fetchedReels;
