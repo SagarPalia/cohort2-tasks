@@ -2,6 +2,7 @@
 
 | #   | Task Details                 | ##        | Based on Topic     | Link                                            |
 | --- | ---------------------------- | --------- | ------------------ | ----------------------------------------------- |
+| 25  | Spotlight Effect             | Day 52    | DOM Maniputaltion  | [View](https://cohort.sagarpalia.com/tasks/25/) |
 | 24  | Reels UI                     | Day 51    | DOM & ForEach      | [View](https://cohort.sagarpalia.com/tasks/24/) |
 | 23  | Virtual Piano                | Day 48    | Event Listeners    | [View](https://cohort.sagarpalia.com/tasks/23/) |
 | 22  | Dynamic Profile Cards        | Day 47    | DOM & ForEach      | [View](https://cohort.sagarpalia.com/tasks/22/) |
