@@ -33,7 +33,7 @@ body {
 	background: linear-gradient(black, black) padding-box,
 		conic-gradient(from var(--bgAngle), black, orange, black) border-box;
 	border: 5px solid rgba(255, 255, 255, 0);
-	animation: 5s infinite gradientBG normal;
+	animation: 5s infinite gradientBG linear;
 	box-shadow: 0 0 30px orange;
 }
 

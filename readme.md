@@ -2,8 +2,9 @@
 
 | #   | Task Details                 | ##        | Based on Topic            | Link                                            |
 | --- | ---------------------------- | --------- | ------------------------- | ----------------------------------------------- |
-| 27  | Animated Card                | Day 53    | CSS Gradients & Keyframes | [View](https://cohort.sagarpalia.com/tasks/27/) |
-| 26  | Matrix Text Effect           | Day 52    | DOM Maniputaltion         | [View](https://cohort.sagarpalia.com/tasks/26/) |
+| 27  | Navigation Anchor            | Day 55    | CSS Anchor                | [View](https://cohort.sagarpalia.com/tasks/28/) |
+| 27  | Animated Card                | Day 54    | CSS Gradients & Keyframes | [View](https://cohort.sagarpalia.com/tasks/27/) |
+| 26  | Matrix Text Effect           | Day 53    | DOM Maniputaltion         | [View](https://cohort.sagarpalia.com/tasks/26/) |
 | 25  | Spotlight Effect             | Day 52    | DOM Maniputaltion         | [View](https://cohort.sagarpalia.com/tasks/25/) |
 | 24  | Reels UI                     | Day 51    | DOM & ForEach             | [View](https://cohort.sagarpalia.com/tasks/24/) |
 | 23  | Virtual Piano                | Day 48    | Event Listeners           | [View](https://cohort.sagarpalia.com/tasks/23/) |
