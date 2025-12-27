@@ -2,6 +2,7 @@
 
 | #   | Task Details                 | ##        | Based on Topic            | Link                                            |
 | --- | ---------------------------- | --------- | ------------------------- | ----------------------------------------------- |
+| 30  | Javascript Questions         | Day 60    | Callbacks                 | [View](https://cohort.sagarpalia.com/tasks/30/) |
 | 29  | Javascript Questions         | Day 58    | Class & Object            | [View](https://cohort.sagarpalia.com/tasks/29/) |
 | 28  | Navigation Anchor            | Day 55    | CSS Anchor                | [View](https://cohort.sagarpalia.com/tasks/28/) |
 | 27  | Animated Card                | Day 54    | CSS Gradients & Keyframes | [View](https://cohort.sagarpalia.com/tasks/27/) |
